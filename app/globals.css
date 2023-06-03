@@ -2,26 +2,89 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.section1{
+  width: 100%;
+  height: 700px;
+  /* background: rgba(153,204,0,1); */
+  display: flex;
+  justify-content:center;
+  /* background: linear-gradient( rgba(153,204,0,1) 0%, rgba(255,255,255,1) 50%, rgba(153,204,0,1) 100%); */
 }
+.text1{
+  font-size: 55px;
+  font-weight: 550;
+  width: 650px;
+  padding-top: 220px;
+  /* background-color: aqua; */
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.imgbottle{
+  width: 600px;
+  /* background-color: aqua; */
+  margin-top: 50px;
+}
+.imgbottle1{
+  z-index: 20;
+  position: relative;
+}
+.text2{
+  text-align: center;
+  font-size: 40px;
+  padding: 50px;
+  color: white;
+  font-weight: 500;
+}
+.img2{
+  width: 700px;
+  height: 600px;
+  margin-left: auto;
+  background-image: url("/images/image-bouteille-plastique.jpg");
+}
+.title1{
+  font-size: 40px;
+  margin-top:25%;
+  font-weight: 400;
+}
+.title2{
+  font-size: 40px;
+  margin-top:15%;
+  font-weight: 400;
+}
+.desc2{
+  margin-left: 10%;
+  color: white;
+}
+.section2desc{
+  font-size: 25px;
+  color: black;
+  width: 700px;
+}
+.img3{
+  width: 700px;
+  height: 600px;
+  margin-right: auto;
+  background-image: url('/images/gros-tas-bouteilles-plastique-pet-compresse-pret-pour-recyclage_308072-2787.jpg');
+}
+.section3desc{
+  font-size: 25px;
+  color: black;
+  width: 700px;
+}
+.desc3{
+  margin-right: 10%;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+}
+.img4{
+  width: 700px;
+  height: 600px;
+  margin-left: auto;
+  background-image: url('/images/Recycling1-Yongin-up-to-us (2).jpg');
+}
+.img5{
+  width: 700px;
+  height: 500px;
+  margin-right: auto;
+  background-image: url('/images/arbre-de-lame-machine-lavage-plastique-pet-équipement-moderne-pour-le-traitement-et-tri-des-déchets-.jpg');
 }
